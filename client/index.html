@@ -7,6 +7,7 @@
     <button id="complimentButton">Get a compliment</button>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="styles.css" rel= "stylesheet"/>
     <script>
       document.getElementById("complimentButton").onclick = function () {
         axios.get("http://localhost:4000/api/compliment/")
@@ -16,5 +17,68 @@
             });
       };
     </script>
+
+    <section id = "fortune-section">
+      <button id= "fortune-btn">Request a Fortune</button>
+    </section>
+
+
+    <section id= "color-form-section">
+    <form id=fav-color-form>
+      <h2>Buddy the Elf, What's Your Favorite Color?</h2>
+      <input
+        type = "text"
+        id= "fav-color-input"
+        placeholder= "Favorite Color Here"
+        />
+        <button id="color-submit">Submit</button>
+    </form>
+  </section>
+
+<section id= "login-user-info">
+  <form id="register-form">
+    <h1>Register Here</h1>
+    <h5 id="register-heading">Register now for endless fun!</h5>
+    <input 
+        type='text'
+        id="register-username"
+        placeholder="Username"/>
+    <input 
+        type='text'
+        id="register-email"
+        placeholder='Email'/>
+    <input 
+        type='text'
+        id="register-firstName"
+        placeholder='First Name'/>
+    <input 
+        type='text'
+        id="register-lastName"
+        placeholder='Last Name'/>
+    <input 
+        type='password'
+        id="register-password"
+        placeholder='Password'/>
+  
+    <button id="register-btn">Register Now</button>
+</form>
+
+
+<form id="login-form">
+  <h1>Log In</h1>
+  <h5 id="login-heading">Already have an account? Login here</h5>
+  <input 
+      type='text'
+      id="login-username"
+      placeholder="Username"/>
+  <input 
+      type='password'
+      id="login-password"
+      placeholder='Password'/>
+  <button id="sign-in-btn">Sign In</button>
+</form>
+</section>
+
+    <script src = "main.js"></script>
   </body>
 </html>

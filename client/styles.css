@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(168, 168, 201);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#complimentButton {
+  position: relative;
+  left: 525px;
+  top: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 1000px;
+  background-color: rgb(112, 192, 75);
+}
+
+#fortune-btn {
+  position: relative;
+  left: 725px;
+  bottom: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 1000px;
+  background-color: rgb(72, 161, 235);
+}
+
+#color-form-section {
+  text-align: center;
+}
+
+#color-submit {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+#register-form {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(233, 245, 245);
+  position: relative;
+  left: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+  border-radius: 40px;
+}
+
+#register-heading {
+  position: relative;
+  bottom: 40px;
+}
+
+#register-username {
+  position: relative;
+  bottom: 50px;
+}
+#register-email {
+  position: relative;
+  bottom: 50px;
+}
+#register-firstName {
+  position: relative;
+  bottom: 50px;
+}
+#register-lastName {
+  position: relative;
+  bottom: 50px;
+}
+
+#register-password {
+  position: relative;
+  bottom: 50px;
+}
+
+#register-btn {
+  position: relative;
+  bottom: 40px;
+}
+
+#login-form {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(233, 245, 245);
+  position: relative;
+  left: 750px;
+  bottom: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+  border-radius: 40px;
+}
+
+#login-heading {
+  position: relative;
+  bottom: 55px;
+}
+
+#login-username {
+  position: relative;
+  bottom: 60px;
+}
+
+#login-password {
+  position: relative;
+  bottom: 60px;
+}
+
+#sign-in-btn {
+  position: relative;
+  bottom: 50px;
+}
