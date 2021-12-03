@@ -28,7 +28,7 @@ const favColor = () => {
     alert(`Oh my gosh! I love ${colorData} too!`)
   }).catch(err => {
     console.log(err)
-    alert('Uh oh. Your request did not work.')
+    alert("Oh no! Seems like that didn't work. Try again.")
   })}
 
 colorSubmit.addEventListener('click', favColor)
